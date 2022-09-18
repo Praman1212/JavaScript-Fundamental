@@ -33,5 +33,30 @@
 
       console.log(typeof null);
       */
-     let age = 30;
-     age = 31;
+//      let age = 30;
+//      age = 31;
+// const now = 2022;
+// const ageJonas = now-1991;
+// const ageSarah = now-2018;
+// console.log(ageJonas*2, ageSarah/2, 2 ** 3);
+// // 2 ** 3 means 2 to the power of 3 i.e 2*2*2
+
+// const firstName = 'Jonas'
+// const lastName = 'Columbus'
+// console.log(firstName + ' '+ lastName)
+
+// let x = 10 +5;
+// x += 10;// x = x + 10;
+// x /= 10;
+// x++;
+// console.log(x);
+
+// // comparison operator
+// // console.log(ageJonas>ageSarah);
+// console.log(ageJonas <= 62);
+
+// const isAge = ageJonas <= 62;
+// console.log(isAge);
+
+// console.log(now - 1990 > now - 1992)
+
