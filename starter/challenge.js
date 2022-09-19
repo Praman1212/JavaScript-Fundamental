@@ -134,21 +134,33 @@
 
 // Switch statement
 
-const day = 'monday'
+// const day = 'monday'
 
-switch(day){
-    case 'monday':
-        console.log('Plan to code');
-        console.log('Play futsal');
-        break;
-    case 'tuesday':
-        console.log('Prepare for presentation');
-        break;
-    case 'wednesday':
-    case'thursday':
-        console.log('Chill day');
-        break;
-        default:
-            console.log('No a valid day');
-}
-if(day === 'monday'){}
+// switch(day){
+//     case 'monday':
+//         console.log('Plan to code');
+//         console.log('Play futsal');
+//         break;
+//     case 'tuesday':
+//         console.log('Prepare for presentation');
+//         break;
+//     case 'wednesday':
+//     case'thursday':
+//         console.log('Chill day');
+//         break;
+//         default:
+//             console.log('No a valid day');
+// }
+// // if(day === 'monday'){}
+// if (23>10){
+//     const str = '23 is bigger';
+//     console.log(str);
+// }
+//conditional operator
+const age = 23;
+//  console.log('I am legal to drink wine') : console.log('I am not legal to drink wine');
+const drink = age >= 18 ? 'drink wine' : 'drink water';
+console.log(drink);
+
+console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}`);
+
