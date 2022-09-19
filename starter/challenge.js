@@ -42,17 +42,92 @@
 //     console.log(`Ram has ${year} left to get driving license`)
 // }
 
-const johnMass = 60;
-const johnHeight = 1.65;
+// const johnMass = 60;
+// const johnHeight = 1.65;
 
-const markMass = 90;
-const markHeight = 1.45;
+// const markMass = 90;
+// const markHeight = 1.45;
 
-const johnBMI = johnMass/(johnHeight ** 2);
-const markBMI = markMass/(markHeight ** 2);
+// const johnBMI = johnMass/(johnHeight ** 2);
+// const markBMI = markMass/(markHeight ** 2);
 
-if(johnBMI> markBMI){
-    console.log(`johnBMI (${johnBMI}) is higher than markBMI (${johnBMI})`);
-}else{
-    console.log(`markBMI (${markBMI}) is higher than johnBMI (${johnBMI})`);
-}
+// if(johnBMI> markBMI){
+//     console.log(`johnBMI (${johnBMI}) is higher than markBMI (${johnBMI})`);
+// }else{
+//     console.log(`markBMI (${markBMI}) is higher than johnBMI (${johnBMI})`);
+// }
+
+// Logical operator
+// const hasLicense = true; 
+// const hasGoodVision = true;
+//  console.log(hasLicense && hasGoodVision);
+//  console.log(hasLicense || hasGoodVision);
+//  console.log(!hasLicense);
+
+//  const shouldDrive = hasLicense && hasGoodVision
+//  if(shouldDrive){
+//     console.log('Sarah can drive ')
+//  }else{
+//     console.log('She cant drive..');
+//  }
+
+//  const isTired = false;
+//  console.log(hasLicense && hasGoodVision && isTired);
+
+//  if(hasLicense && hasGoodVision && !isTired){
+//     console.log('Sarah can drive');
+//  }else{
+//     console.log('Sarah cant drive');
+//  }
+
+// Third Challenge 
+
+// const dolphin1 = 1;
+// const dolphin2 = 1;
+// const dolphin3 = 9;
+
+// const kolas1 = 1;
+// const kolas2 = 1;
+// const kolas3 = 9;
+
+// const averageScoreDolphin = (dolphin1+dolphin2+dolphin3)/3;
+// console.log(averageScoreDolphin);
+
+// const averageScoreKolas = (kolas1+kolas2+kolas3)/3;
+// console.log(averageScoreKolas);
+
+// const winner = (averageScoreDolphin > averageScoreKolas);
+// if(winner){
+//     console.log('Dolphin team is winner')
+// }else if(averageScoreKolas> averageScoreDolphin){
+//     console.log('Kolas team is winner');
+// }else{
+//     console.log('There is draw between dolphin and kolas');
+// }
+
+
+//Bonus
+
+const dolphin1 = 00;
+const dolphin2 = 50;
+const dolphin3 = 90;
+
+const kolas1 = 10;
+const kolas2 = 10;
+const kolas3 = 00;
+
+const averageScoreDolphin = (dolphin1+dolphin2+dolphin3)/3;
+console.log(averageScoreDolphin);
+
+const averageScoreKolas = (kolas1+kolas2+kolas3)/3;
+console.log(averageScoreKolas);
+
+if(averageScoreDolphin> averageScoreKolas && averageScoreDolphin >=100){
+        console.log('Dolphin team is winner')
+    }else if(averageScoreKolas> averageScoreDolphin && averageScoreKolas >= 100){
+        console.log('Kolas team is winner');
+    }else if (averageScoreDolphin == averageScoreKolas && averageScoreDolphin >=100){
+        console.log('There is draw between dolphin and kolas');
+    }else{
+        console.log('No one wins the trophy');
+    }
