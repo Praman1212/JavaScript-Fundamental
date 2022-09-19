@@ -108,26 +108,47 @@
 
 //Bonus
 
-const dolphin1 = 00;
-const dolphin2 = 50;
-const dolphin3 = 90;
+// const dolphin1 = 00;
+// const dolphin2 = 50;
+// const dolphin3 = 90;
 
-const kolas1 = 10;
-const kolas2 = 10;
-const kolas3 = 00;
+// const kolas1 = 10;
+// const kolas2 = 10;
+// const kolas3 = 00;
 
-const averageScoreDolphin = (dolphin1+dolphin2+dolphin3)/3;
-console.log(averageScoreDolphin);
+// const averageScoreDolphin = (dolphin1+dolphin2+dolphin3)/3;
+// console.log(averageScoreDolphin);
 
-const averageScoreKolas = (kolas1+kolas2+kolas3)/3;
-console.log(averageScoreKolas);
+// const averageScoreKolas = (kolas1+kolas2+kolas3)/3;
+// console.log(averageScoreKolas);
 
-if(averageScoreDolphin> averageScoreKolas && averageScoreDolphin >=100){
-        console.log('Dolphin team is winner')
-    }else if(averageScoreKolas> averageScoreDolphin && averageScoreKolas >= 100){
-        console.log('Kolas team is winner');
-    }else if (averageScoreDolphin == averageScoreKolas && averageScoreDolphin >=100){
-        console.log('There is draw between dolphin and kolas');
-    }else{
-        console.log('No one wins the trophy');
-    }
+// if(averageScoreDolphin> averageScoreKolas && averageScoreDolphin >=100){
+//         console.log('Dolphin team is winner')
+//     }else if(averageScoreKolas> averageScoreDolphin && averageScoreKolas >= 100){
+//         console.log('Kolas team is winner');
+//     }else if (averageScoreDolphin == averageScoreKolas && averageScoreDolphin >=100){
+//         console.log('There is draw between dolphin and kolas');
+//     }else{
+//         console.log('No one wins the trophy');
+//     }
+
+// Switch statement
+
+const day = 'monday'
+
+switch(day){
+    case 'monday':
+        console.log('Plan to code');
+        console.log('Play futsal');
+        break;
+    case 'tuesday':
+        console.log('Prepare for presentation');
+        break;
+    case 'wednesday':
+    case'thursday':
+        console.log('Chill day');
+        break;
+        default:
+            console.log('No a valid day');
+}
+if(day === 'monday'){}
